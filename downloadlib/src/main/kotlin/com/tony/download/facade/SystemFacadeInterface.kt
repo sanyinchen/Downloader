@@ -1,14 +1,14 @@
 /*
  * Copyright (C) 2016 Baidu, Inc. All Rights Reserved.
  */
-package com.tony.download.fade
+package com.tony.download.facade
 
 import android.content.Intent
 
 /**
  * Created by sanyinchen on 16/12/22.
  */
-interface SystemFadeInterface {
+interface SystemFacadeInterface {
     fun getActiveNetworkType(): Int;
 
     fun currentTimeMills(): Long;
